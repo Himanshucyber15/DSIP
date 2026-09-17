@@ -1,0 +1,16 @@
+ 1) How many active drivers are currently running on your system?
+Ans: 256
+
+2) Where are your wifi and network drivers located and what is the name of the drivers?
+Ans:  46   13 0xfffffe0007989ee0 0x1915     0x1915     com.apple.iokit.IONetworkingFamily (3.4) E65E9A7D-B371-331D-B018-14E660AAFEAC <7 6 5 4 3 1>
+   78    0 0xfffffe0007acd760 0x1301     0x1301     com.apple.iokit.IOUserEthernet (1.0.1) D13A81A7-F3F2-32B6-9EB4-35D08FB6A551 <46 18 6 5 4 3 1>
+  102    1 0xfffffe00072fefd0 0x75b29    0x75b29    com.apple.driver.AppleBCMWLANCore (1.0.0) 2486B789-8B09-3EEE-AB41-607A06EBD6ED <101 100 99 81 76 65 56 55 48 47 46 26 18 17 8 7 6 5 4 3 1>
+  104    0 0xfffffe00072e7840 0x17784    0x17784    com.apple.driver.AppleBCMWLANBusInterfacePCIe (1) D87030CD-EA64-3A25-82C1-48607A5C2F50 <103 102 101 100 99 81 80 65 56 48 46 26 17 7 6 5 4 3 1>
+  221    2 0xfffffe000773b4f0 0x848      0x848      com.apple.driver.usb.networking (5.0.0) 0D31B86B-3E86-3AE7-AA23-E7BB11C9BEF9 <64 46 6 5 4 3 1>
+
+3) RAM Used: 527 MB
+
+4) CPU used: 0.8%
+
+5) Browser location: Macintosh HD/Applications/Brave Browser.app
+

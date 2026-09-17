@@ -1,0 +1,26 @@
+1. Find which CPU model you have. Next, list the number of cores, and core speed.
+Ans: CPUs: 1
+         Cores: 8 (4 performance cores, 4 efficiency cores)
+	   Core speed: Performance core speed- 3.49 GHz, efficiency core speed 2.42 GHz
+
+2. What type of RAM do you have, what is the model, what is the speed, and how much RAM do you have (in GB)?
+Ans: RAM type: LPDDR5
+	   Model: M2
+	   speed: 6400 MT/s
+	   RAM size: 8GB
+
+3. What kind of GPU do you have, and how much VRAM does it have or how much RAM is dedicated towards the iGPU?
+Ans: GPU: Apple M2 (unified) 
+	   VRAM - N/A
+
+4. What firmware/bios version do you have? When was it last updated?
+Ans: Current Firmware: iBoot-11881.140.96
+
+
+5 BOOT ORDER: Go to your BIOS and write down the boot order of your machine, can your computer boot from a USB disk?
+Ans: Macintosh HD (MacOS 15.6.1)
+
+
+6 SCREEN RESOLUTION: Go to display settings and look up your current screen resolution, and write it down. Now, change your screen orientation to portrait mode and describe what happens. Why would you put your screen in portrait mode? Finally, what happens when you change the resolution to 800x600?
+Ans: Resolution: 2560 x 1600 Retina
+	    

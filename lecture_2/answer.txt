@@ -1,0 +1,36 @@
+6.2) 
+World
+
+Hex values: 77 6F 72 6C 64
+
+hello world! (hello_world.doc)
+Starting position: 68
+
+hello world! (hello_world(1bit).bmp
+Starting position: 42
+
+hello world! (hello_world(24bit).bmp
+Starting position: 42
+
+Did changing the extension change the bytes inside the file?
+Ans: No, the bytes remain the same even after changing the extension
+
+6.3)
+What happens when trying to change the content of "read-only" file?
+Ans: It says the file is locked. 
+
+
+7)
+1. How many disks do you have on your machine?
+Ans: 1 disk
+
+2. For each disk, determine what the disk model is, its capacity is (in GB), and what the read and
+write speed is (in MB)? You might want to search the model on the internet to find the read and
+write speed.
+Ans: 3000 MB/s
+
+3. How many partitions does your disk or disks have, and what is their capacity? What is the function of each partition (e.g. contains your OS, contains only data, is a backup partition)?
+Ans: There are 3 partitions of the physical disk 
+	i)disk0s1 (Apple_APFS_ISC) 524.3 MB - Contains only data
+      ii) disk0s2 (Apple_APFS) 494.4 GB - contains actual OS and data
+	iii) disk0s3 (Apple_APFS_Recovery) 5.4 GB - backup partition 

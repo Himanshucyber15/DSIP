@@ -1,0 +1,56 @@
+4. IP ADDRESS, ROUTING & WEBREQUESTS
+
+1) Public IP address: 145.118.91.202
+   Local IP address: 145.118.91.202
+   Both the IP addresses are same when I am not connected to the VPN.
+   Default gateaway: 145.118.88.1
+
+2) Do you notice any changes in
+   the result? If so, explain why it changed — or why it didn’t.
+Ans:	 
+   When connected to VPN
+   Public IP address: 23.154.136.124
+   Local IP address: 145.118.91.202
+   Doesn't show any default gateway when the VPN is on. 
+   Public IP and Local IP addresses are different when I am connected.   
+   to VPN. 
+   
+   The public and local IP addresses differ after turning on the VPN
+   because the traffic exiting from my computer is still sent from         
+   local network, hence the IP address for local stays the same in 
+   both cases. When the traffic leaves the local network, it gets 
+   encrypted and gets sent to VPN's server. From the VPN server, then  
+   it goes to the destination network. Therefore, the destination site 
+   does not see our local IP, instead it sees the VPN server's IP. 
+   That is why after turning on the VPN, Local IP stays the same and 
+   Public IP is different as it shows VPN server's IP.
+
+3) Is your IP address private or public, and what about your gateway? Private IP addresses are in
+the range 10.0.0.0 - 10.255.255.255, 172.16.0.0 – 172.31.255.255, or 192.168.0.0 – 192.168.255.255.
+
+Ans: My IP address is public because it doesn't fall into the given classifications 
+
+4) Find out the geo-location of your IP address. You can use the following webrequest curl ipinfo.io
+or the location of any other IP address curl ipinfo.io/<IP Adress>
+
+Answer: {
+  "ip": "145.118.91.202",
+  "city": "Leiden",
+  "region": "South Holland",
+  "country": "NL",
+  "loc": "52.1583,4.4931",
+  "org": "AS1103 SURF B.V.",
+  "postal": "2311",
+  "timezone": "Europe/Amsterdam",
+  "readme": "https://ipinfo.io/missingauth"
+}
+
+5) Trace the internet hubs your data passes through to reach a website like Google. Use the command q tracert google.nl ± traceroute google.nl to see the path it takes. What do
+you notice about the first hub and the last hub?
+
+Answer: The first hub has a public IP where the last hub has private IP
+
+
+6) Find the geo-location of the Google data center that is used for your Google searches?
+
+Answer: The location is Amsterdam.
